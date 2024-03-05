@@ -1,5 +1,6 @@
-The Pipeline Deployment System is a tool designed to enable organizations to construct a loosely coupled deployment system without getting into small details of deploying various types of applications. It manages the deployment cycle, allowing your organization to manage all deployments in one centralized place. The centralized approach increases control, consistency and clarity across different projects making it easier to track. The system is capable of handling different application types, including web and native applications. When build deployment system from the starting can be resource consuming, the pipeline facilitates creation of deployment system designed to the organization's need in few minutes. 
-Deployment pipeline system offers a flexible way to manage and deploy diverse applications without the need for extensive manual intervention. This system is useful for organizations that are looking to streamline their deployment process, maintaining consistency and adapting different application types. 
+The Swift-DevOps-Pipeline is a tool designed to enable organizations to construct a loosely coupled deployment system without getting into small details of deploying various types of applications. It manages the deployment cycle, allowing your organization to manage all deployments in one centralized place. The centralized approach increases control, consistency and clarity across different projects making it easier to track. The system is capable of handling different application types, including web and native applications. When build deployment system from the starting can be resource consuming, the pipeline facilitates creation of deployment system designed to the organization's need in few minutes. 
+
+Swift-DevOps-Pipeline system offers a flexible way to manage and deploy diverse applications without the need for extensive manual intervention. This system is useful for organizations that are looking to streamline their deployment process, maintaining consistency and adapting different application types. 
 
 ## Features
 - Centralized Deployment Management:
@@ -88,5 +89,3 @@ Using these script you can setup jenkins pipeline and same can be used in azure.
 ## Contribution:
 - Interested in contributing? Start with issues in the Pipeline issue tracker.
 - The project embraces a decoupled and atomic design, making it easy to contribute and extend.
-
-For more detailed instructions and information, refer to the documentation. Contributions and feedback are encouraged.
