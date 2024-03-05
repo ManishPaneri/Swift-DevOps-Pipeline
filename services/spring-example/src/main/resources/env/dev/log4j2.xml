@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+
+	<Properties>
+		<Property name="log-path">../logs</Property>
+		<Property name="log-pattern">%d [%t] [%-6p] %l: %m%n</Property>
+	</Properties>
+
+	<Appenders>
+
+		<Console name="ConsoleAppender" target="SYSTEM_OUT">
+			<PatternLayout pattern="${log-pattern}"/>
+		</Console>
+		<RollingRandomAccessFile name="RollingRandomAccessFileAppender"
+								 fileName="${log-path}/app.log"
+								 filePattern="${log-path}/app-%d{yyyy-MM-dd}-%i.log.gz" immediateFlush="false" append="false">
+
+			<PatternLayout pattern="${log-pattern}"/>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="5 MB"/>
+			</Policies>
+			<DefaultRolloverStrategy max="10"/>
+		</RollingRandomAccessFile>
+
+
+	</Appenders>
+
+
+	<Loggers>
+		
+		<Logger name="com.awesomesuite" level="INFO" includeLocation="true" additivity="false">
+      		<AppenderRef ref="RollingRandomAccessFileAppender"/>
+    	</Logger>
+		
+		<Root level="INFO" includeLocation="true" additivity="false">
+			<AppenderRef ref="RollingRandomAccessFileAppender" />
+		</Root>
+		
+	</Loggers>
+	
+</Configuration>
