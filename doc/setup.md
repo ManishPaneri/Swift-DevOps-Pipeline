@@ -10,7 +10,10 @@ bash setup.sh
 To create directories in the `/opt/` folder. 
 - It includes a `/opt/bin` folder for executing scripts for build and release services,
 - The `/opt/build` directory,manages the project build (`build.tar`). If there are multiple instances (servers), this path `/opt/build/` can be used as a single mount point. 
-- The `/opt/app` folder is used to execute the build and manage application logs. 
+- The `/opt/app` folder is used to execute the build and manage application logs.
+
+![Swift-DevOps-Pipeline](https://github.com/ManishPaneri/Swift-DevOps-Pipeline/assets/22714758/53774688-591d-42ae-b2c1-3397504f039d)
+
 
 ### Project Makefile
 Creating a Makefile involves defining a set of rules and instructions for building and managing your service. Here's simple Makefile example:
