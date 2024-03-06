@@ -2,9 +2,6 @@ The Swift-DevOps-Pipeline is a tool designed to enable organizations to construc
 
 Swift-DevOps-Pipeline system offers a flexible way to manage and deploy diverse applications without the need for extensive manual intervention. This system is useful for organizations that are looking to streamline their deployment process, maintaining consistency and adapting different application types. 
 
-![Swift-DevOps-Pipeline](https://github.com/ManishPaneri/Swift-DevOps-Pipeline/assets/22714758/53774688-591d-42ae-b2c1-3397504f039d)
-
-
 ## Features
 - Centralized Deployment Management:
   - Manage all deployments in one unified location.
